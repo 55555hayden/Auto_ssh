@@ -28,8 +28,11 @@ pip install paramiko
 
 ### Clone do repositório:
 
+````bash
+
 git clone https://github.com/seu-usuario/ssh-file-transfer.git
 cd ssh-file-transfer
+````
 
 ### Configure credenciais e caminho:
 
