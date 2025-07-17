@@ -24,9 +24,29 @@
 
 pip install paramiko
 
-## Ativação
+## Como usar:
 
-python organizador.py
+### Clone do repositório:
+
+git clone https://github.com/seu-usuario/ssh-file-transfer.git
+cd ssh-file-transfer
+
+### Configure credenciais e caminho:
+
+```` python
+
+username = "seu_usuario_ssh"
+password = "sua_senha_ssh"
+hostname = "ip_do_servidor"
+arquivo_local = r"path_local"  # exemplo: r"C:\Users\Você\arquivo.txt"
+diretorio_remoto = "/caminho/remoto/servidor"
+````
+
+### Ative o script
+
+````bash
+python autossh.py
+````
 
 
 ## Avisos de Segurança
