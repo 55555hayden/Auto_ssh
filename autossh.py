@@ -1,4 +1,4 @@
-mport paramiko
+import paramiko
 import os
 
 class SSHManager:
